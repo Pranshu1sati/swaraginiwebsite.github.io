@@ -176,15 +176,16 @@ footer{
     flex-wrap: wrap-reverse;
   }
   #logo
-  {
-    border-radius: 50%;
-    /* position: center; */
-    width: 200px;
-    height: 200px;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-top: 8%;
-  }
+{
+  border-radius: 50%;
+  justify-content: center;
+  /* position: center; */
+  width: 200px;
+  height: 200px;
+  margin-left: 30%;
+  margin-right: 0%;
+  margin-top: 8%;
+}
   .social-media{
     margin:20px 0;
   }
