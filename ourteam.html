@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teamreal1.css">
+    <title>Our Team</title>
+</head>
+<body>
+    <!-- <nav>NAVBAR</nav> -->
+    <nav>
+        <ul class="topnav"  id="dropdownclick">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li class="topnav-right"><a href="Notices.html">Notices</a></li>
+            <li class="topnav-right"><a href="#join">Join</a></li>
+            <li><a href="ourteam.html">Our Team</a></li>
+            <li class="dropdown"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+    <!-- <nav>NAVBAR</nav> -->
+    <div class ="wrapper">
+     <h1>Our Team</h1>
+     <div class ="team">
+         <div class="team_member">
+             <div class="team_img"><img src="Kajal.jpeg" alt="prashtacula.jpeg"></div>
+             <h3>Kajal</h3>
+             <p class="role">President</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+         <div class="team_member">
+            
+                <div class="team_img"><img src="anant.jpg" alt="prashtacula.jpeg"></div>
+             <h3>Anant</h3>
+             <p class="role">Vice President</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+         <div class="team_member">
+            
+                <div class="team_img"><img src="pranshtacular.jpeg" alt="prashtacula.jpeg"></div>
+             <h3>Core commettie</h3>
+             <p class="role">Lorem</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+     </div>
+
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class = "left-col">
+                <a href="index.html"><img src="swariginilogo.jpg" id="logo"></a>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/swaragini_geu/?hl=en"><i class="fab fa-instagram"></i></a>
+
+                </div>
+                <p class="rights-text">&copy;2022 Created by Pranshu Sati all rights reserved.</p>
+            </div>
+             <div class="right-col">
+                 <h1>Our Newsletter</h1>
+                 <div class ="border"></div>
+                 <p>Enter your Email to get our newsletter and updates</p>
+                 <form action="index.html" method="get" class="news-letterform">
+                     <input type ="email" required class="txtb" name ="usermail" placeholder="Enter mail">
+                     <input type="Submit" required class="btn" name="usermail" value = "Submit">
+                 </form>
+             </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <script type="text/javascript">
+        function dropdownMenu()
+        {
+          var x= document.getElementById("dropdownclick");
+          if(x.className=="topnav"){
+            x.className+=" responsive"; /*change topnave to topnav.responsive*/
+          }
+          else{
+            x.className = "topnav";
+          }
+        }
+    
+        </script>
+</body>
+</html>

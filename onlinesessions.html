@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="events.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Sessions</title>
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a id="b" href="Notices.html">Notices</a>
+        <a href="contactus.html">Contact</a>
+        <a id="a" href="#about">Join</a>
+        <a href="ourteam.html">Our Team</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          &#9776;
+        </a>
+      </div>
+    
+    <div class="container">
+        <h1>Insert Generic Headding</h1>
+      <div class="image-container">  
+        <div class="image"><img src="dexter.jpg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+        <div class="image" onclick="photo()"><img src="dexter.jpg" alt="prashtacula.jpeg"></div>
+    </div>
+    <div>
+        <div class ="popup-image" onclick="photo()">
+            <span>&times;</span><img src="dexter.jpg" ></div>
+    </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class = "left-col">
+                <a href="index.html"><img src="swariginilogo.jpg" id="logo"></a>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/swaragini_geu/?hl=en"><i id="socials" class="fa fa-instagram fa-stack-1x"> Instagram</i></a>
+
+                </div>
+                <p class="rights-text">&copy;2022 Created by Pranshu Sati all rights reserved.</p>
+            </div>
+             <div class="right-col">
+                 <h1>Our Newsletter</h1>
+                 <div class ="border"></div>
+                 <p>Enter your Email to get our newsletter and updates</p>
+                 <form action="index.html" method="get" class="news-letterform">
+                     <input type ="email" required class="txtb" name ="usermail" placeholder="Enter mail">
+                     <input type="Submit" required class="btn" name="usermail" value = "Submit">
+                 </form>
+             </div>
+
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+
+
+      document.querySelectorAll(".image-container .image img").forEach(image => {
+          image.onclick = () => {
+              document.querySelector(".popup-image").style.display = "block";
+              document.querySelector(".popup-image img").src = image.getAttribute('src');
+          }
+      });
+      document.querySelector(".popup-image span").onclick = () => {
+          document.querySelector(".popup-image").style.display = 'none';
+
+      }
+  </script>
+
+
+</body>
+</html>

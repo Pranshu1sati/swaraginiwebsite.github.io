@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a id="b" href="Notices.html">Notices</a>
+        <a href="#contact">Contact</a>
+        <a id="a" href="#about">Join</a>
+        <a href="ourteam.html">Our Team</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          &#9776;
+        </a>
+    </nav>
+    <section class ="contact">
+        <div class ="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum delectus sit dolor? Explicabo, ducimus enim nam amet repudiandae, corporis beatae dolor dolores quisquam quos id illo magnam voluptatibus repellendus! Quia.</p>
+         </div>
+         <div class ="container">
+             <div class ="contactInfo">
+                 <div class="box">
+                     <div class="icon">&#x2316;</div>
+                     <div class="text">
+                         <h3>Address </h3>
+                         <p>kuch bhi - bla bla, <br>bla blaa vlaa bla, <br>Graphic Era University</p>
+                     </div>
+
+                 </div>
+                 <div class="box">
+                    <div class="icon">&#x1F4E7;</div>
+                    <div class="text">
+                        <h3>Email </h3>
+                        <p>ohblalbla@gmail.com</p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="icon">&#9742;</div>
+                    <div class="text">
+                        <h3>Phone </h3>
+                        <p>+91-9084635028</p>
+                    </div>
+
+                </div>
+             </div>
+             <div class="contactForm">
+                 <form >
+                     <h2>Send Message</h2>
+                     <div class="inputBox">
+                         <input type="text" name="" required="required">
+                         <span>Full Name</span>  
+                     </div>
+                     <div class="inputBox">
+                        <input type="email" name="" required="required">
+                        <span>Email</span>  
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type Your Message</span>  
+                    </div>
+                    <div class="inputBox" class="button">
+                        <input type="submit" name="" value="Send">
+                          
+                    </div>
+                 </form>
+             </div>
+             
+         </div>
+    </section>
+    <script type="text/javascript">
+    {
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      } 
+    }
+</script>
+
+
+</body>
+</html>

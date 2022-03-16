@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="jamming.css">
+  <title>Video</title>
+  </head>
+<body>
+
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a id="b" href="Notices.html">Notices</a>
+    <a href="contactus.html">Contact</a>
+    <a id="a" href="#about">Join</a>
+    <a href="ourteam.html">Our Team</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      &#9776;
+    </a>
+</nav>
+
+
+  <div class="container">
+    <div class="heading">Video Galery</div>
+    <div class="video-container">
+       <div class="video">
+       <video src="video.mp4" ></video>
+       </div>
+       <div class="video">
+       <video src="video2.mp4"></video>
+       </div>
+       <div class="video">
+       <video src="video.mp4"></video>
+       </div>
+       <div class="video">
+       <video src="video2.mp4"></video>
+       </div>
+       <div class="video">
+       <video src="video.mp4"></video>
+       </div>
+       <div class="video">
+       <video src="video2.mp4"></video>
+       </div>
+       <div class="video">
+       <video src="video.mp4"></video>
+       </div>   
+       <div class="video">
+       <video src="videos-jamming/jamm2.mp4"></video>
+       </div>
+       <div class="video">
+       <video src="videos-jamming/jam.mp4"></video>
+    </div>
+  </div>
+
+  <script type="text/javascript">{
+
+
+function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      } 
+
+
+    var video = document.querySelectorAll('video')
+    for(let vid of video){
+      vid.addEventListener("click",()=>{
+        if(!vid.classList.contains("play"))
+        {
+          vid.classList.toggle("active");
+          vid.classList.toggle("play");
+          vid.play();
+        }
+        else
+        {
+          vid.classList.toggle("active");
+          vid.classList.toggle("play");
+          vid.pause();
+        }
+      })
+    }
+  }
+  </script>
+
+</body>
+</html>
