@@ -309,26 +309,14 @@ footer{
     }
     .left-col .social-media a i {
       color: #fff;
-      margin-right: 20%;
-      padding-left: 85vh;
-      font-size: 18px;
-      text-decoration: none;
-      transition: .3s linear;
-      text-align: -moz-center;
-      padding-left: 0;
+     margin-right: 0%;
+     padding-left: 0%;
+     font-size: 18px;
+     text-decoration: none;
+     transition: .3s linear;
+     text-align: center;
   }
 }
   /*******************Footer******************************************/
-@media(max-width:600px)
-{
-    .left-col .social-media a i {
-  color: #fff;
-  margin-right: 25px;
-  padding-left: 47%;
-  font-size: 18px;
-  text-decoration: none;
-  transition: .3s linear;
-  text-align: left;
-}
-}
+
 
