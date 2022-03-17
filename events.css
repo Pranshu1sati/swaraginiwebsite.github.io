@@ -182,8 +182,8 @@ footer{
   /* position: center; */
   width: 200px;
   height: 200px;
-  margin-left: 40%;
-  margin-right: 26%;
+  margin-left: 4rem;
+  margin-right: 4rem;
   margin-top: 8%;
 }
   .social-media{
@@ -226,7 +226,7 @@ footer{
     text-decoration:none;
     transition: .3s linear;
     text-align: center;
-    padding-left: 12rem;
+    padding-left: 8.5rem;
     padding-right: 0%;
 
   }
