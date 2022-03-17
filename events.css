@@ -219,7 +219,8 @@ footer{
       color:#fff;
   }
   .left-col{color: #fff; }
-  .left-col .social-media a i{color: #fff;
+  .left-col .social-media a i{
+      color: #fff;
     margin-right:25px;
     
     font-size: 18px;
@@ -227,7 +228,7 @@ footer{
     transition: .3s linear;
     text-align: center;
     padding-left: 8.5rem;
-    padding-right: 0%;
+    padding-right: 0;
 
   }
   .border{
