@@ -182,8 +182,8 @@ footer{
   /* position: center; */
   width: 200px;
   height: 200px;
-  margin-left: 30%;
-  margin-right: 0%;
+  margin-left: 40%;
+  margin-right: 26%;
   margin-top: 8%;
 }
   .social-media{
@@ -221,11 +221,13 @@ footer{
   .left-col{color: #fff; }
   .left-col .social-media a i{color: #fff;
     margin-right:25px;
-    padding-left: 20%;
+    
     font-size: 18px;
     text-decoration:none;
     transition: .3s linear;
-    text-align: left;
+    text-align: center;
+    padding-left: 12rem;
+    padding-right: 0%;
 
   }
   .border{
